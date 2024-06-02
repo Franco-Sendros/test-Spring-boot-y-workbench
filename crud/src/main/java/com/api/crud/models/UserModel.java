@@ -3,7 +3,7 @@ package com.api.crud.models;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name= "users")
+@Table(name = "users")
 public class UserModel {
 
     @Id
@@ -50,8 +50,5 @@ public class UserModel {
     public void setEmail(String email) {
         this.email = email;
     }
-
-    
-
 
 }
